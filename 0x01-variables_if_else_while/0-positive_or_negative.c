@@ -7,19 +7,19 @@
   *
   * Return: Always 0 (success)
   */
-Int main(void)
+int main(void)
 {
-	Int n;
+	int n;
 
-	Srand (time (0));
-	n = rand() – RAND_MAX / 2;
-	If (n > 0) 
+	srand (time (0));
+n = rand() - RAND_MAX / 2;
+	if (n > 0) 
 	{
-        	Printf("%d is positive/n", n);
+        	printf("%d is positive/n", n);
 	}
 	else if (n == 0)
 	{
-		Printf("%d is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{

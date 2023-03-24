@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int i = , j = 1;
+	int i = 2, j = 1;
 
 	printf("%d", j);
 
